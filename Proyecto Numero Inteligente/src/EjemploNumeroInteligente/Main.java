@@ -44,6 +44,7 @@ public class Main {
         c.setValor(6);
 
         System.out.printf("El número %d %s es perfecto",c.getValor(), c.esPerfecto() ? "si" : "no");
+        System.out.println("Prueba de cambios den git");
 
 
     }
