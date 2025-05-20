@@ -1,8 +1,8 @@
 package EjemploNumeroInteligente;
 
 /**
- * La clase {@code NumeroInteligente} es un número declarado por el propio usuario
- * Esta clase tiene varios métodos que afectan al propio número , como:
+ * La clase {@code NumeroInteligente} es un número declarado por el propio usuario.
+ * Esta clase tiene varios métodos que afectan al propio número como:
  * - Incrementar
  * - Decrementar
  * - Comprobación de propiedades matemáticas
@@ -28,7 +28,8 @@ public class NumeroInteligente {
      * Cantidad de incremento o decremento por defecto.
      */
     public static final int PASO = 1;
-        private int valor;
+
+    private int valor;
 
     /**
      * Constructor que inicializa el número a su valor por defecto
@@ -38,8 +39,8 @@ public class NumeroInteligente {
         }
 
     /**
-     * Constructor que inicializa un nuevo numero inteligente con el valor proporcionado.
-     * @param valor número entero declarado por el usuario.
+     * Constructor que inicializa un nuevo número inteligente con el valor proporcionado.
+     * @param valor valor entero declarado por el usuario.
      */
     public NumeroInteligente(int valor) {
             setValor(valor);
@@ -54,8 +55,7 @@ public class NumeroInteligente {
         }
 
     /**
-     * Establece un nuevo valor al número inteligente
-     *
+     * Establece un nuevo valor al número inteligente.
      * @param valor el nuevo valor a establecer
      */
         public void setValor(int valor) {
