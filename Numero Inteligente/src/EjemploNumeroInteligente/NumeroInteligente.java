@@ -48,7 +48,7 @@ public class NumeroInteligente {
 
     /**
      *Obtiene el valor del número inteligente.
-     * @return el valor actual del número inteligente.
+     * @return Retorna el valor actual del número inteligente.
      */
         public int getValor() {
             return valor;
@@ -56,7 +56,7 @@ public class NumeroInteligente {
 
     /**
      * Establece un nuevo valor al número inteligente.
-     * @param valor el nuevo valor a establecer
+     * @param valor El nuevo valor a establecer
      */
         public void setValor(int valor) {
             this.valor = valor;
@@ -79,7 +79,7 @@ public class NumeroInteligente {
 
     /**
      * Incrementa el valor del número inteligente en una cantidad específica.
-     * @param cantidad la cantidad a sumar al valor actual.
+     * @param cantidad la cantidad que sumaremos al valor actual.
      */
     public void incrementar(int cantidad) {
             setValor(valor + cantidad);
@@ -135,8 +135,8 @@ public class NumeroInteligente {
         }
 
     /**
-     * Devuelve una representación en cadena del número inteligente,
-     * @return una cadena que representa el número inteligente.
+     * Devuelve la información del número inteligente,
+     * @return Devuelve texto con los datos de numero inteligente.
      */
     public String toString(){
             return "El número inteligente es: " + valor ;
