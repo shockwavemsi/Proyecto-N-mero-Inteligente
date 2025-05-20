@@ -136,7 +136,7 @@ public class NumeroInteligente {
 
     /**
      * Devuelve la información del número inteligente,
-     * @return Devuelve texto con los datos de numero inteligente.
+     * @return Devuelve texto con los datos de número inteligente.
      */
     public String toString(){
             return "El número inteligente es: " + valor ;
